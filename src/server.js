@@ -2,7 +2,7 @@ import flash from "express-flash";
 import express from "express";
 import morgan from "morgan";
 import rootRouter from "./routers/rootRouter";
-import userRouter from "./routers/123123";
+import userRouter from "./routers/userRouter";
 import videoRouter from "./routers/videoRouter";
 import session from "express-session";
 import { localsMiddleware } from "./middlewares";
